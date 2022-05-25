@@ -1,6 +1,4 @@
-use std::{
-    fmt::{self, Error},
-}; // Import the `fmt` module.
+use std::fmt::{self, Error}; // Import the `fmt` module.
 
 // Define a structure named `List` containing a `Vec`.
 struct List(Vec<i32>);
@@ -30,4 +28,3 @@ fn display_list() {
     let v = List(vec![1, 2, 3]);
     println!("{}", v);
 }
-
